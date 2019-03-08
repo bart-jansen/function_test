@@ -1,7 +1,3 @@
-
-const KeyVault = require('azure-keyvault');
-const msRestAzure = require('ms-rest-azure');
-
 module.exports = async function (context, req) {
     context.log('JavaScript HTTP trigger function processed a request.');
 

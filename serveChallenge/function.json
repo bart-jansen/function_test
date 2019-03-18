@@ -1,14 +1,16 @@
-{
+  {
+    "disabled": false,
     "bindings": [
       {
+        "authLevel": "anonymous",
         "type": "httpTrigger",
         "direction": "in",
-        "route": "orders",
-        "authLevel": "anonymous"
+        "name": "req"
       },
       {
         "type": "http",
-        "direction": "out"
+        "direction": "out",
+        "name": "res"
       }
     ]
   }
